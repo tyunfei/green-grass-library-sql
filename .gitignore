@@ -1,0 +1,23 @@
+# Python/notebook transient files
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Sensitive/local files; original data is not distributed
+.env
+.env.*
+*.xlsx
+*.xls
+*.csv
+*.sql.gz
+*.dump
+*.bak
+*.log
+
+# Student submissions and downloaded files should not be committed
+*submission*.zip
+*template*.docx
